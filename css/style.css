@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'Iransans';
+    src: url("../webfonts/IRANSansWeb.woff");
+}
+body{
+    background: #f9f9f9;
+    margin: 0;
+    font-family:'Iransans';
+    -webkit-font-smoothing:antialiased;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+/* .active a{
+   color: #2196F3!important;
+} */
+*{
+    box-sizing: border-box;
+}
+*{
+    outline: none!important;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+input{
+    direction: rtl
+}
+a,
+a:hover,
+a:focus,
+a:active{
+    text-decoration: none;
+    outline: none;
+}
+/* p{
+    line-height: 2em;
+    direction: rtl;
+} */
+h1,h4{
+    direction: rtl;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.8rem
+}
+
+/*--blog content--*/
+.blog-content{
+    padding: 110px 0 0;
+    background: #f9f9ff;
+}
+#result{
+    margin-top: 20px;
+}
+
+#result span {
+    display : inline-block;
+    direction : rtl;
+}
